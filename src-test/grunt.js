@@ -67,7 +67,8 @@ module.exports = function (grunt) {
       'spaceDirectory': {
         src: ['test_files/space dir/sprite1.png'],
         destImg: 'scratch/space dir.png',
-        destCSS: 'scratch/space dir.styl'
+        destCSS: 'scratch/space dir.styl',
+        engine: 'canvas'
       }
     },
     test: {
